@@ -1,4 +1,4 @@
-import BurgerMenu from "../BurgerMenu/burger";
+import BurgerMenu from "./Burger";
 
 export default function Navbar() {
   return (

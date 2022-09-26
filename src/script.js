@@ -1,16 +1,14 @@
-import { createElement } from "react";
+import { createElement, Component } from "react";
 import { createRoot } from "react-dom/client";
-import Navbar from "./Navbar";
+import Navbar from "./components/Navbar";
+import HowWorks from "./components/HowWorks";
+import Account from "./components/Account";
+import Bag from "./components/Bag";
 
 const reactElement = Navbar();
-// const menu = ["Home", "About", "Contact"];
-// const reactElement = (
-//   <ul>
-//     {menu.map((menuItem) => {
-//       return <li key={menuItem}>{menuItem}</li>;
-//     })}
-//   </ul>
-// );
+<Account />;
+<Bag />;
+console.log(<HowWorks />);
 
 const rootElement = document.getElementById("app");
 createRoot(rootElement).render(reactElement);
